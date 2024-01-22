@@ -1,6 +1,7 @@
 import './App.css'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import Frase from './components/Frase'
 
   function App(){
  
@@ -8,7 +9,9 @@ import Pessoa from './components/Pessoa'
   
   return (// sempre usar className //
     <div className="App"> 
-  
+    <h1>Testanto css</h1>
+    <Frase />
+    <Frase />
     <SayMyName nome="Danilo" />
     <SayMyName nome="João" />
     <SayMyName nome= {nome} />
