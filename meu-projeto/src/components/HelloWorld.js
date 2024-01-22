@@ -1,4 +1,4 @@
-import Frase from './Frase.Js'
+import Frase from "./frase.js"
 function HelloWorld(
 ){
 return (

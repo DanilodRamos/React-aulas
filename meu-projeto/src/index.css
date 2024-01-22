@@ -1,5 +1,7 @@
-body {padding: 50px;
-background-color: #efefef;}
+body {
+  padding: 50px;
+  padding-bottom: 500px;
+  background-color: #efefef;}
 h1{
   color: #333;
 }
