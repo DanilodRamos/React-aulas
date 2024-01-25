@@ -24,8 +24,8 @@ function Condicional(){
             </button>
             {userEmail &&(//blobo de iff no react enquanto for verdadeiro exibi se nao //
                 <div>
-                    <p>O email do usuario é:{userEmail}</p>
-                    <button onClick={limparEmail}>Limpa email</button>
+                    <p>O email do usuario é: {userEmail}</p>
+                    <button onClick={limparEmail}>Limpa e-mail</button>
                 </div>
             )}
             </form>

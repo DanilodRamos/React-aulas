@@ -1,13 +1,16 @@
 import './App.css'
-import Condicional from './components/Condicional'
+import OutraLista from './components/OutraLista'
+
 // sempre usar className //
   function App() {
+
+    const meuItens =['React','Vue', 'Angular']
+
   return ( 
     <div className="App"> 
-    <h1>Renderização por Condicional</h1>
-    <Condicional />
-    
-    </div>
+    <h1>Renderização de listas</h1>
+    <OutraLista itens={meuItens} />
+     </div>
   )
 }
 export default App
