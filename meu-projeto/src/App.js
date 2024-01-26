@@ -1,4 +1,4 @@
-import{BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import{BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Home from './pages/Home'
 import Empresa from './pages/Empresa'
 import Contato from './pages/Contato'
@@ -10,7 +10,7 @@ import Footer from './components/layout/Footer'
     return ( 
     <Router>
       <NavBar />
-      <Switch>
+      <Routes>
         <Route exact path="/">
          <Home />
        </Route>
@@ -20,7 +20,7 @@ import Footer from './components/layout/Footer'
       <Route path="/Contato">
         <Contato />
       </Route>
-    </Switch>
+    </Routes>
     <Footer />
    </Router>
   )
